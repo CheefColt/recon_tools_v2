@@ -1,15 +1,11 @@
-# recon_tools_v2
+# Recon Workflow (Draft)
 
-A small set of Bash and Python scripts I use for passive subdomain enumeration, DNS inspection, and link scraping.
+1. Start with domains.txt
+2. Subdomain enumeration with crt.sh (subfinder.sh)
+3. DNS A/NS record sweep (dns_scan.py)
+4. Scrape pages for JS/hrefs (urls_scraper.py)
 
-⚠️ Note: These tools are for educational and authorized testing purposes only.
-
-## Tools
-
-- `subfinder.sh`: Basic subdomain collection using common resolvers
-- `dns_scan.py`: A DNS inspection script
-- `urls_scraper.py`: Extracts hrefs and JS links from raw HTML
-- `headers.json`: Predefined request headers for scraping
-
-## Usage
-
+Future:
+- add wayback data
+- wordlists for bruteforce
+- screenshot support?
