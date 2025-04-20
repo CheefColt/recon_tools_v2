@@ -12,4 +12,4 @@ with open("domains.txt", "r") as f:
             for rdata in answers:
                 print(f"[+] {domain} → {rdata}")
         except Exception as e:
-            print(f"[-] {domain} → {e}")
+            print(f"[!] Skipped{domain} → ({e})")
