@@ -16,3 +16,11 @@ A small set of Bash and Python scripts I use for passive subdomain enumeration, 
 ## Note
 
 Still testing some auth tools — don't rely on the API module yet.
+
+## Credits
+
+Inspired by tools like Sublist3r, crt.sh, and common bug bounty utilities.
+
+---
+
+Note: Handle secrets responsibly. Always check your commits.
